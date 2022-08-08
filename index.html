@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Lorenzo Relos's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
   <body>
     <header>
       <h1>Lorenzo Relos's Portfolio</h1>
-      <p>This page contains my work as part of the Front End Web Development course at the University of Washington. It will be updated as I proceed through my coursework.</p>
+      <p class="foreword">This page contains my work as part of the Front End Web Development course at the University of Washington. It will be updated as I proceed through my coursework.</p>
       <nav>
         <a href="about-me.html">About Me</a>
       </nav>
@@ -16,23 +17,29 @@
     <article>
       <h2>HTML5100 Assignments</h2>
       <article>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/240px-Gold_Star.svg.png?20140420092753" alt="Star Icon" width="100" height="100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/240px-Gold_Star.svg.png?20140420092753" alt="Star Icon">
         <h3><a href="Assignment1/semantic-elements.html">Lesson 1 Assignment</a></h3>
       </article>
       <article>
-        <img src="https://freesvg.org/img/dynnamitt_home.png" alt="House Icon" width="100" height="100">
+        <img src="img/houseicon.png" alt="House Icon">
         <h3><a href="index.html">Lesson 2 Assignment</a> (It's this page)</h3>
       </article>
     </article>
 
     <article>
       <h2>Lorem Ipsum Filler</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="lorem-ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </article>
 
     <footer>
-      <h3>Update Log</h3>
-      <h5>August 4, 2022</h5>
+      <h3 class="update-log">Update Log</h3>
+      <h5 class="update-log">August 8, 2022</h5>
+      <ul>
+        <li>Added styling via stylesheet.css</li>
+        <li>Added class tags to site for easier styling</li>
+        <li>Replaced house icon with local file</li>
+      </ul>
+      <h5 class="update-log">August 4, 2022</h5>
       <ul>
         <li>Created home page</li>
         <li>Created about me page</li>

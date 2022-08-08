@@ -1,0 +1,67 @@
+h1 {
+  color: purple;
+  border-style: solid;
+  border-width: 5px;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: rgba(0, 0, 240, 0.1);
+}
+body {
+  background: rgba(0,0,0,0.3);
+}
+img {
+  border-style: solid;
+  border-color: rgb(0,0,240);
+  background-color: rgba(0, 0, 240, 0.2);
+  height: 150px;
+  width: 150px;
+  padding: 1rem;
+}
+.foreword {
+  font-weight: bold;
+}
+h5.update-log {
+  font-size: 14px;
+  font-style: italic;
+}
+a:hover {
+  background-color: pink;
+}
+.afterword {
+  color: magenta;
+  background-color: black;
+  border-style: solid;
+  padding: 0.25rem;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 5px;
+}
+.lorem-ipsum {
+  font-style: italic;
+  font-size: 12px;
+  border-style: dashed;
+  border-color: orange;
+  background-color: rgba(255,165,0,0.3);
+  border-width: 2px;
+  width: fit-content;
+  padding: 1rem;
+}
+h2 {
+  text-decoration: underline;
+  border-style: solid;
+  width: fit-content;
+  border-width: 2px;
+  padding: 0.5rem;
+}
+h3.update-log {
+  text-decoration: underline;
+}
+nav {
+  border-style: solid;
+  border-color: red;
+  width: fit-content;
+  background-color: rgba(255, 0, 0, 0.3);
+  padding: 1rem;
+}
