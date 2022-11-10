@@ -15,6 +15,10 @@ body {
 h1 {
   font-family: 'Bangers', cursive;
 }
+nav *{
+  display: block;
+  padding: .25rem;
+}
 img {
   border-style: solid;
   border-color: rgb(0,0,240);
@@ -93,4 +97,36 @@ nav {
 .flex-box h3 {
   width: 15rem;
   word-wrap: normal;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+body label {
+  display: block;
+  margin: 1.5rem;
+}
+input {
+  border-radius: 4px;
+}
+fieldset {
+  border: none;
+}
+fieldset label, input {
+  display: inline;
+}
+input[type=submit] {
+  width: auto;
+  background-color: skyBlue;
+  cursor: pointer;
+}
+fieldset label:hover {
+  text-decoration: underline;
+}
+input[type=submit]:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/203c3dbf2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+        <a href="index.html">Back to Home</a>
+      </nav>
+    </header>
+
+    <p>Would you like to contact me? Please leave your contact info here and I'll try to reach out.</p>
+
+    <form method="get">
+      <label>Name
+        <input type="text" name="contactName">
+      </label>
+      <label>Phone Number
+        <input type="tel" name="contactPhone">
+      </label>
+      <label>E-mail Address
+        <input type="email" name="contactEmail">
+      </label>
+      <label>What is your prefered contact method?
+        <select name="contactPrefMethod">
+          <option value="">Please select</option>
+          <option value="phone">Phone</option>
+          <option value="email">E-mail</option>
+          <option value="other">Another Method</option>
+        </select>
+      </label>
+      <label>If you prefer to be contacted another way, please explain below.
+        <textarea name="contactPrefOtherReason" rows="8" cols="80"></textarea>
+      </label>
+      <fieldset>
+        <legend>Is this a business inquiry?</legend>
+        <label><input type="radio" name="contactBusiness" value="yes">Yes</label>
+        <label><input type="radio" name="contactBusiness" value="no">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>What days of the week are you availablie to contact?</legend>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="sunday">Sunday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="monday">Monday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="tuesday">Tuesday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="wednesday">Wednesday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="thursday">Thursday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="friday">Friday
+        </label>
+        <label>
+          <input type="checkbox" name="contactWeekdays" value="saturday">Saturday
+        </label>
+      </fieldset>
+      <label>What would you like to discuss?
+        <textarea name="contactReason" rows="8" cols="80"></textarea>
+      </label>
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
